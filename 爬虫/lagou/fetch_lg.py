@@ -1,14 +1,20 @@
-import requests
+import json
 from urllib import parse
 
-url = 'https://www.lagou.com/jobs/list_%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90?labelWords=&fromSearch=true&suginput='
+import requests
+
+with open('./config.json', 'r') as f:
+    config = json.loads(f.read())
+
+
 header = {
     'user-agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36'
 }
-apiUrl = 'http://127.0.0.1:8019/lagou'
+
 
 
 def getValidePage():
+    url = config['tg_url']
     res = requests.get(url, headers=header, allow_redirects=False)
     cookie = res.cookies.get_dict()
     tg_url = parse.urlparse(res.headers['Location'])
@@ -31,7 +37,7 @@ def getToken(url, params):
     return res.text
 
 def getPositionList(cookies):
-    header['referer'] = url
+    header['referer'] = config['tg_url']
     baseUrl = 'https://www.lagou.com/jobs/positionAjax.json?city=%E5%B9%BF%E5%B7%9E&needAddtionalResult=false'
     data = {'first':'true','pn':1,'kd':'数据分析'}
     res = requests.post(baseUrl, data=data, headers=header, cookies=cookies)
@@ -39,6 +45,7 @@ def getPositionList(cookies):
 
 
 def main():
+    apiUrl = config['jsUrl']+'/lagou'
     cookie, jsname, seed, ts = getValidePage()
     getJsFile(jsname, cookie)
     params = {'name':jsname,'seed':seed, 'ts':ts}

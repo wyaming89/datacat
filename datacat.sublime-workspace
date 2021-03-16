@@ -520,19 +520,11 @@
 	"buffers":
 	[
 		{
-			"file": "fetch_lg.py",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1686,
+				"buffer_size": 32,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config.json",
-			"settings":
-			{
-				"buffer_size": 186,
 				"line_ending": "Unix"
 			}
 		}
@@ -600,6 +592,7 @@
 		"height": 131.0,
 		"history":
 		[
+			"git commit -m \"ga\"",
 			"help",
 			"exit",
 			"ls",
@@ -615,14 +608,8 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/wyaming/project/datacat/爬虫/lagou"
-	],
 	"file_history":
 	[
-		"/Users/wyaming/project/datacat/爬虫/lagou/config.json",
-		"/Users/wyaming/project/datacat/爬虫/lagou/lagou.sublime-project",
 		"/Users/wyaming/project/jslearn/lagou/4757f486f5a3.js",
 		"/Users/wyaming/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
 		"/Users/wyaming/project/jslearn/lagou/test.py",
@@ -733,44 +720,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "fetch_lg.py",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 186,
+						"buffer_size": 32,
 						"regions":
 						{
 						},
@@ -783,16 +737,15 @@
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -842,7 +795,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/User/python3.sublime-build",
-	"project": "lagou.sublime-project",
+	"project": "datacat.sublime-project",
 	"replace":
 	{
 		"height": 44.0
