@@ -2,7 +2,7 @@
 
 ## SQL
 
-1. 力扣SQL70题解
+1. [力扣SQL70题解](https://github.com/wyaming89/datacat/tree/master/sql/%E5%8A%9B%E6%89%A3)
 
 ## 爬虫
 1. [lagou](https://github.com/wyaming89/datacat/tree/master/%E7%88%AC%E8%99%AB/lagou)
