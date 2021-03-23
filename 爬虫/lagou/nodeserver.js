@@ -15,5 +15,10 @@ app.get('/lagou', (req, res) => {
   eval(txt)
   var ab = window['gt'];
   c = (new ab()).a()
+  fs.unlink(fname+'.js',()=>{})
   res.send(c)
 });
+
+var server = app.listen(8019, function () {
+ 
+})

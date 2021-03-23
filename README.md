@@ -10,6 +10,8 @@
 
 ## 深度学习
 1. [阿里天池-新闻分类](https://github.com/wyaming89/datacat/blob/master/deeplearn/newclassification_base_bert.ipynb)
+    赛题以新闻数据为赛题数据，按照字符级别进行匿名处理。划分14个分类类别：财经、彩票、房产、股票、家居、教育、科技、社会、时尚、时政、体育、星座、游戏、娱乐的文本数据。训练集20w条样本，测试集A包括5w条样本，测试集B包括5w条样本。
+    模型结果线上F1 0.9557，排名15（2020-12-16）
 
 ## 数据可视化
 1. [echarts可视化demo](https://wyaming89.github.io/datav)
