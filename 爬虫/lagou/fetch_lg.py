@@ -42,6 +42,7 @@ def getPositionList(cookies):
     data = {'first':'true','pn':1,'kd':'数据分析'}
     res = requests.post(baseUrl, data=data, headers=header, cookies=cookies)
     print(res.json())
+    
 
 
 def main():
