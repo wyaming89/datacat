@@ -18,4 +18,7 @@
 
 ## 数据可视化
 1. [echarts可视化demo](https://wyaming89.github.io/datav)
+    ![bi](img/Snip20210401_2.png)
 2. [数据分析岗位数据可视化](http://139.199.77.47/)
+    ![datajob](img/Snip20210401_3.png)
+
