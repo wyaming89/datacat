@@ -10,6 +10,7 @@
 3. [dclab爬虫](spider/dclab.py)
 4. [巨量引擎-sign](spider/juliang.py)
 5. [千帆APP排行榜](spider/qianfan.py)
+6. [验证码轨迹模拟--缓动函数](spider/滑动验证之轨迹插值（贝塞尔曲线）.md)
 
 ## 深度学习
 1. [阿里天池-新闻分类](deeplearn/newclassification_base_bert.ipynb)
