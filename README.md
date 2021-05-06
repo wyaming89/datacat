@@ -12,6 +12,9 @@
 5. [千帆APP排行榜](spider/qianfan.py)
 6. [验证码轨迹模拟--缓动函数](spider/滑动验证之轨迹插值（贝塞尔曲线）.md)
 
+## 数据库
+1. [python通过ssh跳板机链接SQLserver](database/connect.py)
+
 ## 深度学习
 1. [阿里天池-新闻分类](deeplearn/newclassification_base_bert.ipynb)
     赛题以新闻数据为赛题数据，按照字符级别进行匿名处理。划分14个分类类别：财经、彩票、房产、股票、家居、教育、科技、社会、时尚、时政、体育、星座、游戏、娱乐的文本数据。训练集20w条样本，测试集A包括5w条样本，测试集B包括5w条样本。
