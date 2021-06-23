@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"re",
-				"result"
+				"get",
+				"getRank"
 			],
 			[
-				"get",
-				"getToken"
+				"re",
+				"result"
 			],
 			[
 				"js",
@@ -523,16 +523,25 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 511,
+				"buffer_size": 778,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "ml/tree.py",
+			"file": "sql/leetcode/力扣SQL70solution/1045 买下所有产品的客户.md",
 			"settings":
 			{
-				"buffer_size": 21,
+				"buffer_size": 1178,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spider/qianfan.py",
+			"settings":
+			{
+				"buffer_size": 572,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -620,10 +629,16 @@
 	"expanded_folders":
 	[
 		"/Users/wyaming/project/datacat",
+		"/Users/wyaming/project/datacat/database",
 		"/Users/wyaming/project/datacat/ml"
 	],
 	"file_history":
 	[
+		"/Users/wyaming/yiliu.json",
+		"/Users/wyaming/project/datacat/爬虫/kfc.py",
+		"/Users/wyaming/project/datacat/ml/tree.py",
+		"/Users/wyaming/project/datacat/爬虫/lagou/fetch_lg.py",
+		"/Users/wyaming/project/datacat/爬虫/lagou/nodeserver.js",
 		"/Users/wyaming/project/datacat/ml/data.csv",
 		"/Users/wyaming/project/datacat/datacat.sublime-project",
 		"/Users/wyaming/project/jslearn/lagou/4757f486f5a3.js",
@@ -731,7 +746,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -740,15 +755,46 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 511,
+						"buffer_size": 778,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sql/leetcode/力扣SQL70solution/1045 买下所有产品的客户.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								16
 							]
 						],
 						"settings":
@@ -766,20 +812,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "ml/tree.py",
+					"buffer": 2,
+					"file": "spider/qianfan.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21,
+						"buffer_size": 572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								446,
+								446
 							]
 						],
 						"settings":
@@ -791,7 +837,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
